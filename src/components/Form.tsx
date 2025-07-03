@@ -42,13 +42,14 @@ export default function Form({ setImgSrc, setImgAlt }: FormProps) {
 					min='5'
 					max='100'
 					required
+					autoFocus
 					onChange={(e) => handleChange(e)}
 				/>
 			</label>
 			<button
 				type='submit'
 				value='Submit'
-				className='rounded border border-black bg-black text-white shadow shadow-black'
+				className='mx-auto w-32 cursor-pointer rounded border border-black bg-black text-white shadow shadow-black'
 			>
 				Submit
 			</button>
