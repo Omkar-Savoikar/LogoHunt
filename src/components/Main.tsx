@@ -14,7 +14,12 @@ export default function Main() {
 				</div>
 				<div className='mx-auto flex w-10/12 grow items-start justify-center pt-8 md:w-1/2 md:grow-0'>
 					{imgSrc.length > 0 && (
-						<img src={imgSrc} alt={imgAlt} className='aspect-square w-64 object-contain' />
+						<img
+							draggable={false}
+							src={imgSrc}
+							alt={imgAlt}
+							className='aspect-square w-64 object-contain'
+						/>
 					)}
 				</div>
 			</div>
