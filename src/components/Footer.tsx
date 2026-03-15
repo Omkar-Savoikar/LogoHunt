@@ -2,7 +2,7 @@ export default function Footer() {
 	return (
 		<footer className='bg-gray-700 py-3 text-gray-200'>
 			<div className='mx-auto flex flex-col gap-2 sm:min-w-[450px] md:max-w-[900px]'>
-				<div className='text-center'>&#169; Omkar Savoikar - 2025</div>
+				<div className='text-center'>&copy; {new Date().getFullYear()} - Omkar Savoikar - LogoHunt</div>
 				<div className='flex flex-row flex-wrap justify-center gap-8'>
 					<a href='https://www.linkedin.com/in/omkar--savoikar' target='_blank' rel='noopener noreferrer'>
 						<img draggable={false} src='/linkedin.png' alt='linkedin logo' width={20} />
